@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属于你的电竞故事，伐木累.......</title>
+    <meta name="sharecontent" data-msg-title="伐木累 ,  最宠粉的电竞社区" data-msg-content="伐木累 ,  最宠粉的电竞社区"  data-line-title="伐木累 ,  最宠粉的电竞社区" data-line-callBack=""/>
+    <meta name="description" content="伐木累 ,  最宠粉的电竞社区">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div style="display: none">    
+    	<img src="img/wx.jpg"  alt=""/>
+    </div>
+    <div class="wrapper" id='app'>
+        <div class="top"></div>
+        <div class="cont">
+        	<component v-bind:name="name" v-bind:is="currentView" v-on:generate="generate">
+	        </component>
+	        <div class="btn outside_btn" v-on:click="again" id="btn">
+	                  <p></p>
+	                  <p></p>
+	        </div>
+        </div>
+        	
+        <!--<div class="tips" id="tips">
+                                  长按可保存图片
+        </div>-->
+        <div class="footer">
+        	<a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.famulei.famulei">
+        		<img src="img/logo.png"/>
+        	</a>
+           <!-- <span>{{btmText}}</span>-->
+        </div>
+    </div>
+</body>
+	<script src="js/rem.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/index.js"></script>
+</html>
+
