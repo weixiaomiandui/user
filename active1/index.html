@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属于你的电竞故事，伐木累.......</title>
+    <meta name="sharecontent" data-msg-title="" data-msg-content=""  data-line-title="" data-line-callBack=""/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div style="display: none">    
+    	<img src="img/wx.jpg"  alt=""/>
+    </div>
+    <div class="wrapper" id='app'>
+        <div class="top"></div>
+        <div class="cont">
+        	<component v-bind:name="name" v-bind:is="currentView" v-on:generate="generate">
+	        </component>
+	        <div class="btn outside_btn" v-on:click="again" id="btn">
+	                  <p></p>
+	                  <p></p>
+	        </div>
+        </div>
+        	
+        <!--<div class="tips" id="tips">
+                                  长按可保存图片
+        </div>-->
+        <div class="footer">
+        	<a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.famulei.famulei">
+        		<!--<img src="img/logo.png"/>-->
+        		<div class="foot-left"></div>
+        		<div class="foot-right">
+        			<p>伐木累 ,  最宠粉的电竞社区</p>
+        			<p>点击下载伐木累APP，最新电竞资讯尽收掌中</p>
+        		</div>
+        	</a>
+           <!-- <span>{{btmText}}</span>-->
+        </div>
+    </div>
+</body>
+	<script src="js/rem.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/index.js"></script>
+</html>
+
